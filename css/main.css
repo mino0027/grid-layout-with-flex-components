@@ -4,7 +4,7 @@ Add a CSS file to your project and copy the base CSS code from the README.md fil
 
 Write the rest of the CSS to match your final HTML/CSS page with the image below. CHECK
 
-Use the grid properties to layout the emoji cards
+Use the grid properties to layout the emoji cards CHECK
 
 Use the flexbox properties to layout the content of the emoji cards
 
@@ -12,9 +12,9 @@ Have the emoji card content in proper order as per the image
 
 The buttons in each card should be aligned with the bottom of the card using a flexbox property
 
-Setup GitHub pages site for your repository
+Setup GitHub pages site for your repository CHECK
 
-Test the GitHub pages URL and submit it for assessment */
+Test the GitHub pages URL and submit it for assessment CHECK*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -43,4 +43,28 @@ body {
   
   .icon {
     font-size: 4rem;
+  }
+
+  /* MY CODE */
+
+  .emojis{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: none
+        "one two"
+        "three four"
+    ;
+  }
+
+  .emoji :nth-child(1){
+    grid-area: one;
+  }
+  .emoji :nth-child(2){
+    grid-area: two;
+  }
+  .emoji :nth-child(3){
+    grid-area: three;
+  }
+  .emoji :nth-child(4){
+    grid-area: four;
   }
