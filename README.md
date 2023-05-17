@@ -19,6 +19,7 @@ body {
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
+  coding projects
 }
 
 .emoji a {
