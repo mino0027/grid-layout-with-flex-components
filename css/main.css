@@ -68,3 +68,19 @@ body {
   .emoji :nth-child(4){
     grid-area: four;
   }
+
+  .emoji {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .icon{
+    order: -1;
+    text-align: center;
+}
+
+body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
