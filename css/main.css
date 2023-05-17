@@ -1,0 +1,46 @@
+?8/* Do not modify the given HTML for the cards. You may add the link tag for CSS. CHECK
+
+Add a CSS file to your project and copy the base CSS code from the README.md file  CHECK
+
+Write the rest of the CSS to match your final HTML/CSS page with the image below. CHECK
+
+Use the grid properties to layout the emoji cards
+
+Use the flexbox properties to layout the content of the emoji cards
+
+Have the emoji card content in proper order as per the image
+
+The buttons in each card should be aligned with the bottom of the card using a flexbox property
+
+Setup GitHub pages site for your repository
+
+Test the GitHub pages URL and submit it for assessment */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+  }
+  
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+    coding projects
+  }
+  
+  .emoji a {
+    text-decoration: none;
+    background-color: #781BAA;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
