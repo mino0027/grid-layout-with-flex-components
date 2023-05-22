@@ -1,4 +1,4 @@
-?8/* Do not modify the given HTML for the cards. You may add the link tag for CSS. CHECK
+/* Do not modify the given HTML for the cards. You may add the link tag for CSS. CHECK
 
 Add a CSS file to your project and copy the base CSS code from the README.md file  CHECK
 
@@ -30,7 +30,6 @@ body {
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
-    coding projects
   }
   
   .emoji a {
@@ -50,7 +49,7 @@ body {
   .emojis{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-areas: none
+    grid-template-areas: 
         "one two"
         "three four"
     ;
@@ -72,7 +71,7 @@ body {
   .emoji {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .icon{
@@ -83,4 +82,17 @@ body {
 body {
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.emoji p {
+    text-align: left;
+    order: 3;
+}
+.emoji h2 {
+    text-align: left;
+    order: 2;
+}
+.emoji a {
+    text-align: left;
+    order: 4;
 }
